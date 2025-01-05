@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* root */
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    --ff: 'Inter', sans-serif;
+    --fs-paragraph: 0.875rem;
+    --fs-heading: 1.375rem;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+/* reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    font-style: italic;
+    color: var(--Green);
+    margin-inline: auto;
+
+}
+h1 {
+    line-height: 1.1;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+body {
+    font-family: var(--ff);
+    font-size: var(--fs-paragraph);
+    font-weight: var(--fw-400);
+    background: var(--Grey-900);
+    color: var(--White);
+    text-align: center;
+}
+
+/* text style */
+
+.user-name {
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-600);
+    margin-bottom: 0.5rem;
+}
+
+.user-location {
+    color: var(--Green);
+    font-weight: var(--fw-600);
+    margin-bottom: 1.25rem;
+    
+}
+
+.list-item {
+    display: block;
+    width: 100%;
+    background: var(--Grey-700);
+    border-radius: .4rem;
+    font-weight: var(--fw-600);
+    padding: .8rem;
+    text-align: center;
+    transition: background .3s ease, color .3s ease;
+}
+
+.user-description {
+    font-weight: var(--fw-);
+}
+
+/*layot*/
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+}
+.social-container {
+    min-width: 25em;
+    padding: 2.75rem;
+    background: var(--Grey-800);
+    border-radius: 0.8rem;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+.social-links * + * {
+    margin-top: .90rem;
+}
+
+.list-item:hover {
+    background: var(--Green);
+    color: var(--Grey-800);
+}
+
+/* general styles */
+
+.user-image {
+    border-radius: 50%;
+    width: 6rem;
+    margin-bottom: 1.5rem;
+}
