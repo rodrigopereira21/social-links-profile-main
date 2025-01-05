@@ -70,7 +70,7 @@ body {
 .user-location {
     color: var(--Green);
     font-weight: var(--fw-600);
-    margin-bottom: 1.5rem;
+    margin: 0.5rem 0 1rem;
     
 }
 
@@ -97,7 +97,8 @@ body {
     min-height: 100dvh;
 }
 .social-container {
-    min-width: 24em;
+    max-width: 24rem;
+    width: 100%;
     padding: 2.5rem;
     background: var(--Grey-800);
     border-radius: 1rem;
@@ -118,7 +119,9 @@ body {
 /* general styles */
 
 .user-image {
+    display: block;
     border-radius: 50%;
-    width: 6rem;
-    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.25rem;
 }
