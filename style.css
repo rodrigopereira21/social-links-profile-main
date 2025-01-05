@@ -5,18 +5,18 @@
 
 /* root */
 :root {
-    --Green: hsl(75, 94%, 57%);
-    --White: hsl(0, 0%, 100%);
-    --Grey-700: hsl(0, 0%, 20%);
-    --Grey-800: hsl(0, 0%, 12%);
-    --Grey-900: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
 
-    --ff: 'Inter', sans-serif;
-    --fs-paragraph: 0.875rem;
-    --fs-heading: 1.375rem;
-    --fw-400: 400;
-    --fw-600: 600;
-    --fw-700: 700;
+  --ff: 'Inter', sans-serif;
+  --fs-paragraph: 0.875rem;
+  --fs-heading: 1.375rem;
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
 }
 
 /* reset */
@@ -24,9 +24,9 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -38,7 +38,7 @@ img {
 
 }
 h1 {
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 ul li {
@@ -64,13 +64,13 @@ body {
 .user-name {
     font-size: var(--fs-heading);
     font-weight: var(--fw-600);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .user-location {
     color: var(--Green);
     font-weight: var(--fw-600);
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
     
 }
 
@@ -78,15 +78,15 @@ body {
     display: block;
     width: 100%;
     background: var(--Grey-700);
-    border-radius: .4rem;
+    border-radius: .5rem;
     font-weight: var(--fw-600);
-    padding: .8rem;
+    padding: 1rem;
     text-align: center;
     transition: background .3s ease, color .3s ease;
 }
 
 .user-description {
-    font-weight: var(--fw-);
+    font-weight: var(--fw-400);
 }
 
 /*layot*/
@@ -97,18 +97,18 @@ body {
     min-height: 100dvh;
 }
 .social-container {
-    min-width: 25em;
-    min-height: 40em;
+    min-width: 28em;
+    min-height: 45em;
     padding: 2.75rem;
     background: var(--Grey-800);
-    border-radius: 0.8rem;
+    border-radius: 1rem;
 }
 
 .social-links {
-    margin-top: 1.5rem;
+    margin-top: 1.75rem;
 }
 .social-links * {
-    margin-top: .90rem;
+    margin-top: 1.2rem;
 }
 
 .list-item:hover {
@@ -121,5 +121,5 @@ body {
 .user-image {
     border-radius: 50%;
     width: 6rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
