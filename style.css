@@ -97,9 +97,8 @@ body {
     min-height: 100dvh;
 }
 .social-container {
-    min-width: 28em;
-    min-height: 45em;
-    padding: 2.75rem;
+    min-width: 24em;
+    padding: 2.5rem;
     background: var(--Grey-800);
     border-radius: 1rem;
 }
