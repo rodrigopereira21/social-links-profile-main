@@ -95,7 +95,7 @@ body {
 .wrapper {
     display: grid;
     place-items: center;
-    min-height: 100dvh;
+    min-height: 100vh;
 }
 .social-container {
     max-height: 38.188rem;
